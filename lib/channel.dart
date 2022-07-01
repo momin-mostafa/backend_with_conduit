@@ -1,4 +1,5 @@
 import 'package:back_end_with_conduit/back_end_with_conduit.dart';
+import 'package:back_end_with_conduit/controller/heros_controller.dart';
 
 /// This type initializes an application.
 ///
@@ -29,10 +30,11 @@ class BackEndWithConduitChannel extends ApplicationChannel {
 
     // Prefer to use `link` instead of `linkFunction`.
     // See: https://conduit.io/docs/http/request_controller/
-    router.route("/example").linkFunction((request) async {
-      return Response.ok({"key": "value"});
+    router.route("/").linkFunction((request) async {
+      return Response.ok(
+          'Welcome to Hero example done with conduit <@TamimMostafa>');
     });
-
+    router.route('/heroes/[:id]').link(() => HeroController());
     return router;
   }
 }

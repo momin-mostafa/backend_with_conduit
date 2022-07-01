@@ -4,6 +4,7 @@ import 'package:conduit_test/conduit_test.dart';
 export 'package:back_end_with_conduit/back_end_with_conduit.dart';
 export 'package:conduit_test/conduit_test.dart';
 export 'package:test/test.dart';
+// ignore: directives_ordering
 export 'package:conduit/conduit.dart';
 
 /// A testing harness for back_end_with_conduit.

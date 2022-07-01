@@ -38,7 +38,7 @@ class HeroController extends Controller {
   @override
   FutureOr<RequestOrResponse?> handle(Request request) async {
     if (request.path.variables.containsKey('id')) {
-      final id = int.parse(request.path.variables['id']!);
+      final id = int.tryParse(request.path.variables['id']!);
       final hero =
           heroList.firstWhere((hero) => hero['id'] == id, orElse: () => null);
       if (hero == null) {

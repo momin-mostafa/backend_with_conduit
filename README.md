@@ -1,4 +1,4 @@
-#######folowing tutorial link : https://gitbook.theconduit.dev/tut/getting-started
+###### folowing tutorial link : https://gitbook.theconduit.dev/tut/getting-started
 
 
 

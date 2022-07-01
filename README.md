@@ -1,6 +1,12 @@
+###### folowing tutorial link : https://gitbook.theconduit.dev/tut/getting-started
+
+
+
 # back_end_with_conduit
 
 ## Running the Application Locally
+
+
 
 Run `conduit serve` from this directory to run the application. For running within an IDE, run `bin/main.dart`. By default, a configuration file named `config.yaml` will be used.
 

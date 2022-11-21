@@ -4,6 +4,8 @@
 
 # back_end_with_conduit
 
+R&D project for [dart](https://dart.dev/) backend.
+
 ## Running the Application Locally
 
 
